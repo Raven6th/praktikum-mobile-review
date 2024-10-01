@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Krakatau'),
+      home: const MyHomePage(title: 'Rawr'),
     );
   }
 }
@@ -29,7 +29,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,8 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
           width: 300,
           height: 300,
           decoration: const BoxDecoration(
-            image: DecorationImage(image: AssetImage("dandadan.jpeg"))
-          ),
+              image: DecorationImage(image: AssetImage("dandadan.jpeg"))),
         ),
       ),
     );
